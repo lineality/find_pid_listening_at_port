@@ -1,13 +1,13 @@
 ## find_pid_listening_at_port
 
 Once you find the pid (process ID) of, for example, the unresponsive server listening at a port, 
-use
+use one of these two to end the process.
 ```
 $ kill -9 <PID #####>
 or
 # kill SIGKILL <PID #####>
-
 ```
+
 
 # Method 1
 ```
